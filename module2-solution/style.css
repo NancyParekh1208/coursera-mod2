@@ -19,30 +19,44 @@ section >h2
 {
 	float: right;
 	border-bottom: 1px solid black;
-	border-left: :1px solid black;
+	border-left: 1px solid black;
 	margin:0;
-	width: 230 px;
+	width: 230px;
 	text-align: center;
-    font-style: Times;
     font-size: 24px;
     font-weight: bold;
     height: 45px;
     padding-top: 10px;
 }
+.pree
+{
+	background-color: #3cb371;
+}
+.in
+{
+	background-color: tomato;
+}
+.pi
+{
+	background-color: #6a5acd; 
+}
 section.pree>h2 {
-    background-color: #76b8db;
+    background-color: #ff0047;
 }
 
 section.in>h2 {
-    background-color: #4f7acd;
+    background-color: #ee82ee;
 }
 
 section.pi>h2 {
-    color: #e2e2e2;
-    background-color: #10328a;
+    background-color: pink;
 }
 section>p {
+
     padding: 40px 15px 15px 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row {
